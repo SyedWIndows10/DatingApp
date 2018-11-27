@@ -1,0 +1,17 @@
+dotnet new webapi -o DatingApp.API -n DatingApp.API
+
+code . -> to open project in vs code
+
+dotnet run - > normal run
+ctrl+c - > server shut down
+dotnet watch run - > can do changes and see the changes live without stop server and run again
+
+--Shortcuts:
+prop - properties
+ctor - constructor
+
+--Database Set up
+dotnet ef --help
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
